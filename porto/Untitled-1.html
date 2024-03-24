@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portofolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="closemenu" class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, saya <span>Fathu Shabri</span><br />From Bekasi Utara</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-col-1">
+                    <img src="my.png" alt="My Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Perkenalkan, nama saya Fathu Shabri. Saya berasal dari Bekasi Utara, 
+                        saya lahir di Bekasi Utara umur saya saat ini Berumur 17 tahun Ini adalah portofolio saya 
+                        Di sini saya memperkenalkan tentang diri saya dan keterampilan pemrograman saya 
+                        semoga bisa menghibur Anda.
+                    </p>
+                    <div class="tap-titles">
+                        <p class="tap-links" onclick="opentap('skills')">Skills</p>
+                        <p class="tap-links" onclick="opentap('experience')">Experience</p>
+                        <p class="tap-links" onclick="opentap('education')">Education</p>
+                    </div>
+                    <div class="tap-contents active-tap" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br />Designing Sofwer Interfaces</li>
+                            <li><span>Web Development</span><br />Designing Web Interfaces</li>
+                            <li><span>App Development</span><br />Designing App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tap-contents" id="experience">
+                        <ul>
+                            <li><span>2020</span><br />Mulai Mempellajari Bahasa Pemograman</li>
+                            <li><span>2021</span><br />Sekolah Dengan jurusan RPL</li>
+                            <li><span>2022</span><br />Saya Sudah Mengerti Sedikit demi Sedikit</li>  
+                        </ul>
+                    </div>
+                    <div class="tap-contents" id="education">
+                        <ul>
+                            <li><span>SD</span><br />SD Harapan Jaya 4</li>
+                            <li><span>SMP</span><br />SMP 25 Bekasi</li>
+                            <li><span>SMK</span><br />SMK Catur Global</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Desain web atau web design adalah apa yang menciptakan tampilan dan 'rasa' secara keseluruhan 
+                        sebuah website, saat digunakan oleh pengguna. Ini mencakup proses perencanaan dan pembuatan elemen-elemen 
+                        website, dari struktur tata letak, gambar, warna, font, hingga grafik.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-app-store"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        User Interface (UI) dan User Experience designer merupakan pekerjaan yang berfokus 
+                        kepada perangkat lunak atau aplikasi. Dua tipe pekerjaan ini menjadi komponen yang kerap 
+                        dibutuhkan seiring berkembangnya digitalisasi dan kecepatan akses berbasis aplikasi.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        Apa Itu Application Development? Lengkapnya, application development adalah serangkaian 
+                        proses dimulai dari pembuatan awal aplikasi, membuat prototype aplikasi, tahap implementasi, 
+                        hingga pengujian akhir aplikasi yang menandakan aplikasi selesai dan siap untuk digunakan.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="ssmm.jpg" alt="Social Media">
+                    <div class="layer">
+                        <h3>Sosial Media</h3>
+                        <p>
+                            Saya mempunya Sosial Media Dari Mulai Facebook 
+                            Instagram, Tiktok, Telegram, Dan whatsapp, 
+                            Jika anda ingin menghubungi kami silakan ke contact.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>                       
+                    </div>                   
+                </div>
+                <div class="work">
+                    <img src="skils.jpg" alt="My Skills">
+                    <div class="layer">
+                        <h3>My Skills</h3>
+                        <p>
+                            Saya memiliki sedikit keterampilan, termasuk Python, C++, JavaScript, PHP, Swift, Java, Go,
+                            dan banyak lagi.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="dvd.png.png" alt="Pemrograman Website">
+                    <div class="layer">
+                        <h3>Pemrograman Website</h3>
+                        <p>
+                            Pemrograman web atau web programming adalah proses mengkomunikasikan perintah pada 
+                            komputer untuk membangun suatu program berbasis website agar dapat diakses menggunakan internet.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>fathushabri@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>089637551806</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/fathusbri_/"><i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="c:\Users\Sepuluh\Downloads\porto.rar" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required />
+                        <input 
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        required />
+                        <textarea 
+                        name="message" 
+                        rows="6"
+                        placeholder="Your Message">
+                        </textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright@fathushabri.Rpl <i class="fa-solid fa-heart"></i> by fathu
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var taplinks = document.querySelectorAll(".tap-links");
+        var tapcontents = document.querySelectorAll(".tap-contents");
+    
+        function opentap(tapname) {
+            for (var i = 0; i < taplinks.length; i++) {
+                taplinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tapcontents.length; i++) {
+                tapcontents[i].classList.remove("active-tap");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tapname).classList.add("active-tap");
+        }
+    </script>
+      
+    <script>
+        const sideMenu = document.getElementById("sidemenu");
+        const openMenuButton = document.querySelector(".fa-bars");
+        const closeMenuButton = document.querySelector(".fa-xmark");
+      
+        function openMenu() {
+          sideMenu.classList.add("show");
+        }
+      
+        function closeMenu() {
+          sideMenu.classList.remove("show");
+        }
+      
+        openMenuButton.addEventListener("click", openMenu);
+        closeMenuButton.addEventListener("click", closeMenu);
+      </script>  
+</body>
+</html>
